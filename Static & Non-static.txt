@@ -1,0 +1,66 @@
+
+   "**** Static method ****"  :-
+  ============================
+
+1. Definition:-
+
+         A static method is a method that belongs to a class, 
+   but does not belong to an instance of that class and this 
+   the method can be called without the instance or object of 
+   that class.
+
+2. Accessing members and methods In the static method:- 
+
+          The method can only access only static data members and 
+   static methods of another class or same class but cannot access
+   non-static methods and variables.
+
+3. Binding process:- 
+
+       The static method uses compile-time or early binding.
+
+4. Memory allocation:-
+
+      In the static method, less memory is used for the execution 
+   because memory allocation happens only once because the static 
+   keyword fixed a particular memory for that method in ram.
+
+5. Overriding:-
+
+   The static method cannot be overridden because of early binding.
+
+
+   "**** Non-static method ****" :-
+  ================================
+
+
+1. Definition:-
+
+   Every method in java defaults to a non-static method without a 
+   static keyword preceding it. non-static methods can access any 
+   static method and static variable also, without using the object 
+   of the class.
+
+2. Accessing members and methods In the static method:-
+   
+    In the non-static method, the method can access static data 
+    members and static methods as well as non-static members and 
+    methods of another class or the same class. 
+
+3. Binding process:- 
+
+   The non-static method uses runtime or dynamic binding.
+
+4. Memory allocation:-
+
+   In the non-static method, much memory is used for the execution 
+   because here memory allocation happens when the method is invoked 
+   and the memory is allocated every time when the method is called. 
+
+5. Overriding:-
+
+   The non-static method can be overridden because of runtime binding.
+
+   
+
+
