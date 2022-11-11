@@ -1,7 +1,9 @@
-package Prac1;
+package Masai.com;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println(Adder.add(11, 11));
+	// write your code here
+        System.out.println("Hello world!");
     }
 }
